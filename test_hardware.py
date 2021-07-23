@@ -2,7 +2,7 @@ from autopilot.hardware.gpio import Digital_Out
 
 class Only_On_Pin(Digital_Out):
     """
-    This GPIO pin only goes on
+    you can only turn this GPIO pin on
     """
     def __init__(self, pin, *args, **kwargs):
         super(Only_On_Pin, self).__init__(pin=pin, *args, **kwargs)
